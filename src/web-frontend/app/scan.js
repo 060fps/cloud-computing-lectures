@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const websocket = new WebSocket("ws://python-websocket-server-student-alex-studer.mycluster-eu-de-1-244439-975dd9665934b81fa7342475b7855171-0000.eu-de.containers.appdomain.cloud");
+    const websocket = new WebSocket("ws://front-end-student-milena-mihajlovic.mycluster-eu-de-1-244439-975dd9665934b81fa7342475b7855171-0000.eu-de.containers.appdomain.cloud");
   
     document.querySelector(".minus").addEventListener("click", () => {
       websocket.send(JSON.stringify({ action: "minus" }));
